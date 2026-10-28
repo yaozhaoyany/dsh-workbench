@@ -10,7 +10,7 @@ const child = spawn(process.execPath, [cli, ...process.argv.slice(2)], {
   cwd: root,
   env: {
     ...process.env,
-    DSH_HOME: resolve(root, process.env.DSH_HOME || '.dsh'),
+    DSH_HOME: resolve(root, process.env.DSH_HOME || '.dsh-codex'),
   },
   stdio: 'inherit',
 });
