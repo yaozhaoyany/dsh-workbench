@@ -1,0 +1,19 @@
+{
+  "name": "dsh-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open-source workbench built on DeepSeek Harness with planned WeChat, QQ and Slack integrations",
+  "scripts": {
+    "start": "node scripts/dsh.mjs web --no-open",
+    "dsh": "node scripts/dsh.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh": "0.2.1-rc.2"
+  },
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=26"
+  }
+}
