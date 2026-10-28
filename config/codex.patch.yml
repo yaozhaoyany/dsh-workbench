@@ -1,0 +1,11 @@
+# Keep the Codex backend reproducible in source control.
+# Both packages are pinned in package.json and resolved from node_modules.
+- insert:
+    - id: relay-session-import-for-codex
+      name: relay-dsh-plugin-session-import
+    - id: relay-codex-host
+      name: relay-dsh-plugin-codex
+
+- insert:
+    - id: workbench-workspace
+      name: dsh-workbench-workspace

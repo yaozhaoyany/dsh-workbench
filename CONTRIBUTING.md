@@ -17,3 +17,7 @@ npm start
 
 升级 dsh 需要在单独的改动中更新固定版本和锁文件，并重新验证已接入的渠道。
 提交前运行 `npm test` 和 `git diff --check`。
+
+当前 Codex 后端采用插件已验证的 dsh 0.1.6-alpha.1 组合。保留完整锁文件；
+不要单独升级某个 dsh 组件或删除锁文件。依赖一致性测试应始终通过。
+真实 Codex 验收需要本机登录，不应将个人凭据加入 GitHub Actions。
